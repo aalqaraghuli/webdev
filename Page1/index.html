@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr" class="uk-notouch">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Assignment 3 </title>
+    <link rel="stylesheet" href="./css/uikit.min.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./css/uikit.min.js"></script>
+
+    <style>
+	h1 { font-size: 60px; }
+	h2 { font-size: 30px; }
+	p { font-size: 20px; }
+	.grad{
+  	background-color: #aaaaff; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(to right, white , #7777ff); }
+
+	.title1{ color: black; font-family: "Times New Roman", Times, serif; }
+	.title2{ color: white; font-size:3em; font-family: monospace; font-weight: bold;} /* or use font-family:   font-family: Arial, Helvetica, sans-serif;
+	.uk-active {background-color: #992299; }
+	.blk {color: black; }
+	.line {border-bottom: 2px solid black; }
+
+    </style>
+
+    <div class="grad" border-bottom: 8px solid #888; >
+        <div class="uk-container  uk-container-left uk-flex uk-flex-center">
+	    <h1 class="title1">ANXIETY</h1>
+	</div>
+        <div class="uk-container uk-container-center uk-margin-large-top uk-flex uk-flex-center">
+               <ul class="uk-tab" >
+                    <li aria-expanded="false"><a href="index.html">HOME</a></li>
+                    <li><a href="anxiety.html">ANXIETY</a></li>
+                    <li><a href="symptoms.html">SYMPTOMS</a></li>
+                    <li><a href="causes.html">CAUSES</a></li>
+                    <li class="uk-active"><a href="treatment.html">TREATMENT</a></li>
+                    <li><a href="causes.html">COPING</a></li>
+                </ul>
+	       <hr class = "line">
+	</div>
+	<div> <hr class = "line"> </div>
+    </div
+  </head>
+
+  <body>
+	   <style>
+		.text1{font-family: "Times New Roman", Times, serif; font-size: 1.5em; font-style: normal;}
+		.bottom{
+			padding: 8px 16px 48px 16px;
+			color: white;
+			background: #992299;
+  			background-color: #992299 ; /* For browsers that do not support gradients */
+		}
+		.whitebkg{ background-color:yellow ; background:yellow; height:300px; color=black}
+		img { border-radius: 8px; margin: 8px;}
+		.uk-slider-items li {
+		  opacity: 0.4;
+		  transition: opacity 0.35s ease-out;
+		}
+		.uk-slider-items li.active {
+		  opacity: 1;
+		}
+  	   </style>
+
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+	   <div class="bottom">
+              <div class="uk-grid" data-uk-grid-margin="">
+                <div class="uk-width-1-1 uk-row-first">
+                    <h2 class="title2">TREATMENTS ARE THERE</h1>
+                    <p class="text1">Almost everyone in this world has had anxiety, and sometimes it can be very challenging to deal with. In today's day of age though, many different treatments have been studied and brought to people to help manage their anxiety symptoms. This page will explore the different options there are for treatments, which include therapy options, diets, exercise, and medications. By becoming familiar with these treatment options, people will be able to reduce the impact that anxiety can have on a person's life. </p>
+                </div>
+              </div>
+            </div>
+
+
+
+
+<div uk-grid class="grad">
+    <div class="uk-width-1-4">
+        <ul class="uk-nav uk-nav-default" uk-switcher=" connect: #switched-items; animation:uk-animation-fade">
+            <li> <a href="#"> therapy image </a></li>
+            <li> <a href="#"> diet image </a></li>
+            <li> <a href="#"> exercise image </a></li>
+            <li> <a href="#"> medications.jpg image </a></li>
+        </ul>
+    </div>
+    <div class="uk-width-3-4 whitebkg">
+	<p> hello </p>
+        <ul class="uk-switcher" id="switched-items">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, sed do eiusmod.</li>
+	   <li> THERAPY<p>There are two different therapy options, which are cognitive therapy and behaviour therapy.
+Cognitive therapy includes strategies such as "self-talk", which would mean to monitor the things that you say to yourself. It is believed that anxiety becomes worse when also strategies that would be included in cognitivé therapy. <p>Behaviour therapy is all about exposure. The purpose of this therapy is to confront one's fears. The steps would include:
+• To rank your fears, from the top being the most threatening
+• First, begin working on the fear you ranked the lowest
+• Imagine yourself experiencing the situation, analyze what exactly makes you scared in that situation
+• Work out a plan to reduce the fear
+• Use techniques that would allow you to stay in the situation, using breathing technique could be one example
+• Once you stay, begin to appreciate how nothing bad occurred
+• Repeat this as much as possible
+• Once this small fear is
+	    </li>
+        </ul>
+
+    </div>
+</div>
+
+<div style="bottom">
+<ul uk-tab>
+    <li class="uk-active"><a href="#">Left</a></li>
+    <li><a href="#">Item</a></li>
+    <li><a href="#">Item</a></li>
+    <li class="uk-disabled"><a>Disabled</a></li>
+</ul>
+
+</div>
+
+<!--
+    <div class="grad" border-bottom: 8px solid #888; >
+
+	<div class="uk-text-center" uk-grid>
+	    <div class="uk-width-1-4">
+		<div class="uk-card uk-card-default uk-card-body">
+			<img class="image" src="./images/therapy.jpg" alt="therapy image"> 
+			<img class="image" src="./images/diet.jpg" alt="therapy image">
+			<img class="image" src="./images/exercise.jpg" alt="therapy image">
+			<img class="image" src="./images/medications.jpg" alt="therapy image">
+		</div>
+	    </div>
+	    <div class="uk-width-3-4">
+	        <div class="uk-card uk-card-default uk-card-body">3-4</div>
+	    </div>
+	</div>
+    </div>
+-->
+
+    </body>    
+</html>
+
+
